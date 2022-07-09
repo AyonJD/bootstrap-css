@@ -472,6 +472,7 @@ a {
 }
 .pricing-table-content{
     background: #fff;
+    width: fit-content;
 }
 .pricing-table ul{}
 .pricing-table ul li{
@@ -501,6 +502,36 @@ a {
 .pricing-table a:hover{
     background: #000 !important;
 
+}
+
+@media only screen and (max-width: 991px) {
+    .pricing-table{
+        padding: 57px 55px;
+    }
+    .pricing-section-margin{
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .pricing-table ul li{
+        font-size: 16px;
+    }
+    .pricing-table ul{
+        margin-left: -41px;
+    }
+    .pricing-table{
+        width: 90vw !important;
+        padding-right: 0 !important;
+    }
+    .price-section-row-width{
+        width: 100% !important;
+    }
+    .pricing-btn{
+        text-align: left !important;
+    }
+    .pricing-table h1{
+        font-size: 32px;
+    }
 }
 
 /* feedback section */
