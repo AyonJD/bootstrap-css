@@ -10,12 +10,12 @@ a{
 .default-button {
     font-weight: 600;
     color: #fff !important;
-    background: #E83B3E;
+    background: #6278DF;
     border: 0;
     position: relative;
     padding: 10px 20px;
     z-index: 1;
-    border-color: #E83B3E;
+    border-color: #6278DF;
 
 }
 
@@ -277,6 +277,19 @@ a {
     border: 2px solid #6278df !important;
     box-shadow: 3px 3px 27px -3px #6278df !important;
 } 
+
+@media only screen and (max-width: 991px) {
+    .form-custom-width{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .customised-for-con{
+        margin-left: 8px;
+    }
+}
+
 
 /* counting-section */
 .counting-section{
