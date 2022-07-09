@@ -38,20 +38,7 @@ a{
 .default-button:hover::after {
     width: 100%;
 }
-/* .custom-navbar{
-    max-height: 70px;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 9;
-    background: #fff;
-    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.15);
-} */
 
-/* .navbar-collapse{
-    background: #fff;
-    width: 100vw !important;
-} */
 .navbar-brand span{
     font-size: 1.5rem;
     display: inline-block;
@@ -73,17 +60,7 @@ a{
     position: relative;
     top: 6px;
 }
-/* .custom-btn-a{
-    font-size: 1rem !important;
-    padding: 9px 23px !important;
-    border: 2px solid #6278df !important;
-    color: #6278df;
-    transition: all .3s;
-} */
-/* .custom-btn-a:hover{
-    background: #6278df;
-    box-shadow: 3px 3px 27px -3px #6278df;
-} */
+
 .navbar-collapse .navbar-nav{
     margin: 0 auto;
 }
@@ -96,6 +73,9 @@ a{
 @media only screen and (max-width: 991px){
     .custom-navbar{
         line-height: 1.2 !important;
+    }
+    #buy-button{
+        text-align: center;
     }
 
 }
