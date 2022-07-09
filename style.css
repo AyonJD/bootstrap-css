@@ -264,9 +264,14 @@ a {
         margin: 0 auto;
     }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
     .customised-for-con{
         margin-left: 8px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .customised-for-con{
+        margin-top: 5px;
     }
 }
 
