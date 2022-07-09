@@ -317,9 +317,6 @@ a {
     font-weight: 400;
     font-size: 22px;
 }
-.about-section-img img{
-    
-}
 
 /* Application section */
 .app-section{
@@ -404,6 +401,13 @@ a {
 .arc-06{
     top: 12px !important;
 }
+
+@media only screen and (max-width: 1199px) {
+    .app-section-item{
+        height: 300px;
+    }
+}
+
 
 /* Image section */
 .image-section{
